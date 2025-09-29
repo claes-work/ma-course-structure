@@ -107,12 +107,32 @@ Voraussetzungen aus Modul 3: Grundbegriffe in n8n wie Workflow, Node, Trigger, A
     - Format erzwingen, zum Beispiel Markdown Liste mit festen Schlüsseln oder kompaktes JSON für Weiterverarbeitung  
     - Sensible Daten nur anzeigen, wenn unbedingt erforderlich  
 
-12. **Tägliche Teams Übersicht mit Zusammenfassungen**  
+12. **Sonderlektion: Items in n8n verstehen**  
+   Inhalt: Erklärung des grundlegenden Datenkonzepts in n8n – Items.  
+
+   Schwerpunkte:  
+   - **Definition:** Ein *Item* ist eine einzelne Dateneinheit, die durch einen Workflow fließt (z. B. eine E-Mail, eine Tabellenzeile, ein Formular-Eintrag).  
+   - **Mehrere Items:** Viele Nodes geben nicht nur ein Item zurück, sondern eine Liste von Items (z. B. mehrere Datensätze aus einer Tabelle oder mehrere E-Mails).  
+   - **Verarbeitung:**  
+     - n8n behandelt Items standardmäßig **nacheinander**.  
+     - Jeder Node verarbeitet also alle Items einzeln, gibt aber wieder eine Liste von Items zurück.  
+   - **Struktur:** Items liegen in JSON vor (`$json` = Zugriff auf die Daten eines Items).  
+   - **Abgrenzung:** Ein einzelnes Item ist nicht der gesamte Workflow. Mehrere Items sind auch keine parallelen Workflows, sondern ein Workflow, der mehrfach mit unterschiedlichen Daten läuft.  
+
+   **Analogie – Der Umzugskarton:**  
+   - Stell dir vor, ein Item ist ein Umzugskarton. In diesem Karton sind mehrere Gegenstände (z. B. Datenfelder wie Name, E-Mail, Telefonnummer).  
+   - Wenn du den Karton trägst, bewegst du alle Inhalte auf einmal durch den Workflow.  
+   - Hättest du keinen Karton, müsstest du jedes Objekt einzeln tragen – mehr Aufwand, mehr Durchläufe.  
+   - In n8n ist der „Karton“ also die Verpackung, die alle Daten eines Items zusammenhält und sicher von Node zu Node transportiert.  
+
+   Ergebnis: Klarheit über das Grundprinzip, wie n8n Daten in Form von Items organisiert. Diese Vorstellung ist wichtig, bevor man mit Schleifen oder Aggregationen arbeitet.  
+
+13. **Tägliche Teams Übersicht mit Zusammenfassungen**  
     Inhalt: Geplante Ausführung, zum Beispiel jeden Morgen. Bündelung der Ergebnisse aus Lektion 10 und Versand einer Teams Übersicht mit den wichtigsten Punkten und Links zu Originalmails.  
     Ergebnis: Einheitlicher Tagesstart mit relevanten Informationen.  
     Typische Nodes: Zeitplaner, Tabellen Abfrage, LLM Zusammenfasser, Microsoft Teams Nachricht.  
 
-13. **Recap und Abschluss von Modul 4**  
+14. **Recap und Abschluss von Modul 4**  
    Inhalt: Zusammenfassung der wichtigsten Inhalte und Erfolge aus diesem Modul.  
    - Canvas und Node Grundlagen verstanden  
    - Erster Workflow mit Formular und Tabelle erstellt  
