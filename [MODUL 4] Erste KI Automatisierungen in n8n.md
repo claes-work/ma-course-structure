@@ -41,7 +41,22 @@ Voraussetzungen aus Modul 3: Grundbegriffe in n8n wie Workflow, Node, Trigger, A
    - Node Settings: wichtige Konfigurationsmöglichkeiten, die oft übersehen werden  
    Ergebnis: Verständnis für den universellen Aufbau jeder Node und Grundlage für den Praxisteil.  
 
-4. **Trigger plus Tabelle, Bewerbungsformular in Microsoft 365 speichern**  
+4. **JSON verstehen**  
+   Inhalt: Einführung in das Datenformat JSON, das in n8n fast überall verwendet wird.  
+   Schwerpunkte:  
+   - Was ist JSON: JavaScript Object Notation, ein Standardformat zur Datenübertragung  
+   - Grundaufbau:  
+     - Schlüssel-Wert-Paare (z. B. `"name": "Max"`)  
+     - Verschachtelungen mit Objekten `{}` und Arrays `[]`  
+   - Typische Datentypen: Strings, Zahlen, Boolean (true/false), Listen, Objekte  
+   - Syntaxregeln: Anführungszeichen bei Strings, Kommas zwischen Elementen, geschweifte und eckige Klammern korrekt öffnen/schließen  
+   - Bezug zu n8n:  
+     - Jeder Node verarbeitet und übergibt Daten als JSON  
+     - Warum es wichtig ist, die Struktur zu verstehen (z. B. beim Ansprechen von Feldern in Expressions)  
+   Ergebnis: Verständnis, wie JSON aufgebaut ist, und Sicherheit beim Lesen der Daten, die in n8n durch Workflows fließen.  
+
+
+5. **Trigger plus Tabelle, Bewerbungsformular in Microsoft 365 speichern**  
    Inhalt: Ein einfacher Workflow mit zwei Nodes. Ein Trigger erfasst Formulardaten und schreibt sie in eine Microsoft Tabelle in OneDrive oder SharePoint. Hinweis auf spätere Webhook Einbindung in Webseiten.  
    Ergebnis: Strukturierte Datenerfassung ohne Medienbruch.  
    Typische Nodes: Webhook oder Microsoft Forms Trigger, Microsoft Excel Tabellen Node.  
@@ -50,35 +65,35 @@ Voraussetzungen aus Modul 3: Grundbegriffe in n8n wie Workflow, Node, Trigger, A
    - Executions prüfen, um Fehler zu finden  
    - **Daten pinnen** als Technik merken, um nicht jedes Mal das Formular neu ausfüllen zu müssen (eigene Lektion folgt)  
 
-5. **Automatische Antwortmail mit KI Unterstützung**  
+6. **Automatische Antwortmail mit KI Unterstützung**  
    Inhalt: Erweiterung des Workflows aus Lektion 4. Ein KI Modell erzeugt einen einzigen personalisierten Satz, der in ein vorbereitetes E Mail Template eingefügt wird. Versand über Microsoft 365 Mail.  
    DSGVO Hinweis: Für diese Lektion wird die OpenAI Node genutzt, die **nicht DSGVO konform** ist. Deshalb arbeiten wir ausschließlich mit Beispiel E Mails oder Testaccounts, niemals mit echten personenbezogenen Daten. Die rechtssichere Variante (z. B. Azure gehostete Modelle) zeigen wir im Sondermodul „Rechtssicherer Einsatz“ und technisch umgesetzt in Modul 5 (KI Agenten).  
    Ergebnis: Konsistente Antwort mit persönlicher Note bei minimalem KI Einsatz.  
    Assets: E Mail Template als Download, Beispiel E Mails zur Übung.  
    Typische Nodes: LLM Textgenerator, Microsoft Outlook E Mail senden.  
 
-6. **Sonderlektion: Daten pinnen und wiederverwenden**  
+7. **Sonderlektion: Daten pinnen und wiederverwenden**  
    Inhalt: Erklärung, warum Daten pinnen praktisch ist, und wie man es in n8n nutzt. Beispiel: Bewerbungsformular nicht jedes Mal neu ausfüllen, sondern mit gespeicherten Testdaten arbeiten. Anwendung auch für KI Nodes (z. B. OpenAI), damit keine unnötigen API Calls entstehen.  
    Ergebnis: Effizienteres Arbeiten, Zeit und Kosten sparen.  
    Typische Funktionen: Daten in Executions pinnen, gespeicherte Payloads wiederverwenden.  
 
-7. **Antworten erkennen, E Mail Trigger plus TextClassifier**  
+8. **Antworten erkennen, E Mail Trigger plus TextClassifier**  
    Inhalt: Neuer Workflow. Eingehende E Mails werden empfangen und per TextClassifier als Antwort oder Nicht Antwort klassifiziert. Relevante Fälle werden in der Tabelle markiert oder mit Status versehen.  
    Ergebnis: Rückmeldungen werden verlässlich erkannt und dokumentiert.  
    Typische Nodes: Microsoft Outlook E Mail Trigger, KI Klassifizierer, Tabellen Update.  
    Praxishinweis: Executions nutzen, um Fehlklassifikationen zu finden und Prompts anzupassen.  
 
-8. **Teams Benachrichtigung bei Antworten**  
+9. **Teams Benachrichtigung bei Antworten**  
    Inhalt: Aufbauend auf Lektion 7 wird bei positiver Klassifizierung eine Nachricht in einen Teams Kanal oder Chat gesendet, optional mit Deep Link zur Original E Mail oder zum Tabelleneintrag.  
    Ergebnis: Das Team bleibt ohne Postfach Chaos informiert.  
    Typische Nodes: Microsoft Teams Nachricht senden.  
 
-9. **Weitere Klassifizierungen, Werbung, Newsletter, Systemmails**  
+10. **Weitere Klassifizierungen, Werbung, Newsletter, Systemmails**  
    Inhalt: Erweiterung der Klassifizierungslogik. Kategorien wie Werbung und Newsletter werden erkannt. Festlegung eines sicheren Handlings, zum Beispiel Label setzen, in Ordner verschieben oder ignorieren.  
    Ergebnis: Entlasteter Posteingang bei erhaltener Kontrolle.  
    Hinweis: Zuerst labeln und prüfen, danach Regeln schrittweise verschärfen.  
 
-10. **E Mail Zusammenfassungen pro Kategorie inklusive Prompting Leitfaden**  
+11. **E Mail Zusammenfassungen pro Kategorie inklusive Prompting Leitfaden**  
     Inhalt: Für ausgewählte Kategorien werden kompakte Zusammenfassungen erstellt. Fokus auf gutes Prompting für verlässliche Summaries.  
     Ergebnis: Schnellere Orientierung und einheitliche Qualität der Zusammenfassungen.  
     Typische Nodes: LLM Zusammenfasser, Aggregation über mehrere E Mails.  
@@ -92,12 +107,12 @@ Voraussetzungen aus Modul 3: Grundbegriffe in n8n wie Workflow, Node, Trigger, A
     - Format erzwingen, zum Beispiel Markdown Liste mit festen Schlüsseln oder kompaktes JSON für Weiterverarbeitung  
     - Sensible Daten nur anzeigen, wenn unbedingt erforderlich  
 
-11. **Tägliche Teams Übersicht mit Zusammenfassungen**  
+12. **Tägliche Teams Übersicht mit Zusammenfassungen**  
     Inhalt: Geplante Ausführung, zum Beispiel jeden Morgen. Bündelung der Ergebnisse aus Lektion 10 und Versand einer Teams Übersicht mit den wichtigsten Punkten und Links zu Originalmails.  
     Ergebnis: Einheitlicher Tagesstart mit relevanten Informationen.  
     Typische Nodes: Zeitplaner, Tabellen Abfrage, LLM Zusammenfasser, Microsoft Teams Nachricht.  
 
-12. **Recap und Abschluss von Modul 4**  
+13. **Recap und Abschluss von Modul 4**  
    Inhalt: Zusammenfassung der wichtigsten Inhalte und Erfolge aus diesem Modul.  
    - Canvas und Node Grundlagen verstanden  
    - Erster Workflow mit Formular und Tabelle erstellt  
