@@ -77,8 +77,8 @@ Voraussetzungen aus Modul 3: Grundbegriffe in n8n wie Workflow, Node, Trigger, A
    Ergebnis: Effizienteres Arbeiten, Zeit und Kosten sparen.  
    Typische Funktionen: Daten in Executions pinnen, gespeicherte Payloads wiederverwenden.  
 
-8. **Antworten erkennen, E Mail Trigger plus TextClassifier**  
-   Inhalt: Neuer Workflow. Eingehende E Mails werden empfangen und per TextClassifier als Antwort oder Nicht Antwort klassifiziert. Relevante Fälle werden in der Tabelle markiert oder mit Status versehen.  
+8. **Eingehende Emails erkennen, E Mail Trigger plus TextClassifier**  
+   Inhalt: Neuer Workflow. Eingehende E Mails werden empfangen und per TextClassifier klassifiziert. Relevante Fälle werden in der Tabelle markiert oder mit Status versehen.  
    Ergebnis: Rückmeldungen werden verlässlich erkannt und dokumentiert.  
    Typische Nodes: Microsoft Outlook E Mail Trigger, KI Klassifizierer, Tabellen Update.  
    Praxishinweis: Executions nutzen, um Fehlklassifikationen zu finden und Prompts anzupassen.  
