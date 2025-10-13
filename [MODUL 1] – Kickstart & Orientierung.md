@@ -13,37 +13,44 @@
 1. **Willkommen & Motivation – dein Vorsprung durch diese Schulung**  
    Kurze Ansprache, warum diese Schulung Zukunftssicherheit bringt („Du bist jetzt gewappnet für die Zukunft“).
 
-2. **Unser Ziel mit diesem Kurs – was dich am Ende erwartet**  
-   Klares Zielbild: „Du wirst sicher im Umgang mit n8n und KI-Agenten“.
-
-3. **Wer wir sind – deine Trainer & unsere Mission**  
-   Vorstellung der Trainer und der Unternehmensmission.
-
-4. **Für wen ist dieser Kurs gedacht?**  
-   Erklärung, dass auch Mitarbeiter ohne Vorkenntnisse abgeholt werden.
-
-5. **So nutzt du die Plattform – Memberspot erklärt**  
+2. **So nutzt du die Plattform – Memberspot erklärt**  
    Einführung in Fortschrittsanzeige, Kommentare, Module und Lektionen.
 
-6. **Bitte arbeite Lektionen chronologisch durch**  
+3. **So holst du das meiste aus diesem Kurs raus**
+      - Wie viel zeit hast du pro Woche?
+      - Comittment
+      - Kalendereintrag
+
+4. **Unser Ziel mit diesem Kurs – was dich am Ende erwartet**  
+   Klares Zielbild: „Du wirst sicher im Umgang mit n8n und KI-Agenten“.
+
+5. **Wer wir sind – deine Trainer & unsere Mission**  
+   Vorstellung der Trainer und der Unternehmensmission.
+
+7. **FALLS NOTWENDIG - Bitte arbeite Lektionen chronologisch durch**  
    Reminder, warum die Reihenfolge wichtig ist.
 
-7. **Dein Fahrplan für Fragen – so bekommst du Antworten**  
-   - Kommentare unter die Lektionen setzten (ist so direkt ordentlich dokumentiert und wird im 1:1 Call aufgegriffen)
-   - Fragen für Live-Call Q&A sammeln und rechtzeitig abgeben (Wird genauer in Lektion 10 erläutert)
-   - 1:1 Termin am Ende des Kurses.
-
-9. **Wie läuft die Betreuung ab?**  
+8. **Fehler Quelle verstehen - Wie geht man vor bei Problemen**
+   - Chatbot (Fehler quelle prüfen) (Marc)
+   - Prüfen ob es für Problem schon Loom Video gibt
+  
+9. **Wie läuft die (persönliche) Betreuung ab? (Loom Videos)**  
    Erklärung des Support-Systems, Ansprechpartner.
+   - Windows, Mac Aufnahmesystem erklären
+   - Aufhname (Problem zeigen, nachstellen, beschreiben, alle nodes zeigen)
+   - Workflow
+   - Wann kriegst du rückmeldung
 
-10. **Live-Calls – Überblick & Ablauf**  
-   Jeden Mittwoch gemeinsamer Q&A-Call, Fragen bitte vorab einreichen.
+11. **Live-Calls – Überblick & Ablauf**
+   Jeden _Dienstag & Donnerstag - 11:00 Uhr - 1 Stunde_  gemeinsamer Live Call, Fragen bitte vorab einreichen bis Freitag / Dienstag.
+   - 1. hälfte -> Beste Loom Fragen durchgehen
+   - 2. Hälfte Allgemeine Fragen (Entweder direkt beantwortet, oder Loom) 
+   - Live Calls Format wird stetig verbessert
+   - Pünktlich da nach 5 min darf keiner mehr rein
+   - Wenn call ausfällt kriegen leute bis einen tag vorher bescheid
 
-11. **Übersicht der Module in Kurs 1**  
+13. **Übersicht der Module in Kurs 1**  
     Kurzer Ausblick auf die kommenden Inhalte.
-
-12. **Umgang mit Fehlern & Problemen**  
-    Server-/Credential-Fehler unterscheiden, eigene Checks, dann Support kontaktieren.
 
 ---
 
