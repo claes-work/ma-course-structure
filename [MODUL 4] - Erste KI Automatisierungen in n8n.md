@@ -55,6 +55,7 @@ Voraussetzungen aus Modul 3: Grundbegriffe in n8n wie Workflow, Node, Trigger, A
      - Warum es wichtig ist, die Struktur zu verstehen (z. B. beim Ansprechen von Feldern in Expressions)  
    Ergebnis: Verständnis, wie JSON aufgebaut ist, und Sicherheit beim Lesen der Daten, die in n8n durch Workflows fließen.  
 
+4.1 **Skizzieren** Workflow Schritte
 
 5. **Trigger plus Tabelle, Bewerbungsformular in Microsoft 365 speichern**  
    Inhalt: Ein einfacher Workflow mit zwei Nodes. Ein Trigger erfasst Formulardaten und schreibt sie in eine Microsoft Tabelle in OneDrive oder SharePoint. Hinweis auf spätere Webhook Einbindung in Webseiten.  
