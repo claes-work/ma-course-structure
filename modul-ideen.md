@@ -1,0 +1,4 @@
+- RAG
+- Firecrawl
+- Tesseract
+- Supabase Datenbank
