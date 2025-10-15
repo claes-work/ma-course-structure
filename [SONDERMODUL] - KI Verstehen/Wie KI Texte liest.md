@@ -1,0 +1,31 @@
+Computer können total viele unterschiedliche Sachen machen. Sie können zum Beispiel Texte schreiben mithilfe von KI.
+Das ist die Abkürzung für künstliche Intelligenz, habt ihr bestimmt schon mal gehört. Nur, wie machen Computer das eigentlich?
+Wenn eine KI schreibt, hat das lustigerweise sehr viel mit Zählen zu tun, das zeige ich euch mal anhand eines simplen Beispiels.
+Ihr kennt vielleicht alle die Geschichte von Rotkäppchen. Ein Computer kann das Märchen zwar nicht so lesen wie wir, aber er kann ganz viele Sachen zählen.
+Die Buchstaben zum Beispiel: "E", "s", "Leerzeichen", "w", keine Angst, ich hab die vorher alle schon gezählt.
+Es sind ganz schön viele: 4377 Buchstaben.
+Und die Wörter, die kann man auch zählen. Bei Rotkäppchen sind es 999.
+Und wenn man ersteinaml einmal alle Wörter und Buchstaben gezählt hat, habe ich mal gemacht, dann kann man auch sehr gut erkennen, welche Wörter wie oft vorkommen.
+Das Wort „Und“ kommt im Märchen ganze 52 Mal vor,
+„die“ 32 Mal und „Großmutter“ 21 Mal.
+Das sind übrigens die drei Wörter, die am häufigsten in Rotkäppchen vorkommen.
+Das kann man natürlich auch mit den Buchstaben machen. Also wenn euch mal langweilig ist, ist das eine total schöne Beschäftigung.
+Am häufigsten kommt der Buchstabe "E" vor, 631 Mal, gefolgt vom "N", 401 Mal, und vom "I" 301 Mal.
+Dass genau diese Buchstaben am häufigsten vorkommen, ist übrigens ganz typisch für die deutsche Sprache.
+Für die KI werden aber noch ganz andere Sachen gezählt. Zum Beispiel welche Wörter nebeneinander auftauchen.
+Das Märchen von Rotkäppchen fängt an mit einem „Es“ und einem „war“. Neben dem „war“ steht ein „einmal“, neben dem einmal ein „ein“ und immer so weiter.
+Hieraus ergeben sich Wortpaare und wie oft welche Wörter nebeneinander vorkommen.
+Aber hier ist noch längst nicht Schluss. Die KI zählt noch viele andere Verbindungen.
+Welche drei Wörter zusammen auftauchen, welche Silben oft zusammen stehen, welche Buchstaben am häufigsten nebeneinander auftauchen und noch vieles, vieles mehr.
+Das ist für uns total unübersichtlich. Einem Computer macht das aber alles nichts aus, im Gegenteil.
+Der hat jetzt einen guten Überblick und was er zählt, muss der Computer nicht einmal verstehen.
+Für eine KI sind Zahlen viel wichtiger als die Bedeutung von Wörtern.
+Denn ihr Verständnis ist nicht dasselbe wie das eines Menschen.
+Eine KI ist einfach nur unglaublich gut in Mathe.
+Zu errechnen, welche Verbindungen es in Texten gibt, ist ihre eigentliche Kernaufgabe.
+Und das macht so ein KI-Programm nicht nur mit einem Märchen, sondern mit so vielen Texten wie es geht.
+Tatsächlich funktioniert das nicht nur mit Texten, es funktioniert auch, mit Bildern oder mit Musik. Mit allem, was ein Computer speichern kann.
+Und wenn du dich jetzt fragst, wie man eigentlich Bilder zählen kann:
+Ein Computer speichert Bilder in Form von Buchstaben und Zahlen.
+So kann er auch hier Muster erkennen, ganz genau so wie in einem Text.
+Und das alles nennt man Daten.
