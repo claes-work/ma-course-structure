@@ -30,28 +30,19 @@
    - Kostenlos vs. Business- / Enterprise-Plan  
    - Was Mitarbeiter davon überhaupt betrifft (kurzer Überblick, kein Deep Dive)  
 
-6. **Grundbegriffe in n8n – das kleine Wörterbuch**  
-   - Workflow = Sammlung von Aktionen  
-   - Node = Baustein in einem Workflow  
-   - Trigger-Nodes vs. Action-Nodes  
-   - Credentials = Zugangsdaten zu Diensten  
-   - API = Schnittstelle zu externen Systemen  
-   - Executions = Ausführungen eines Workflows  
-   - Evaluations = (später relevant, aktuell nur Begriffsklärung)  
-
-7. **n8n-Oberfläche – Grundüberblick**  
+6. **n8n-Oberfläche – Grundüberblick**  
    Erster Blick auf die Plattform und ihre wichtigsten Bereiche.  
 
-8. **Reiter Credentials – deine Zugangsdaten verwalten**  
+7. **Reiter Credentials – deine Zugangsdaten verwalten**  
    Erklärung, was Credentials sind und wie sie in n8n genutzt werden.  
 
-9. **Reiter Executions – deine Workflow-Ausführungen im Blick**  
+8. **Reiter Executions – deine Workflow-Ausführungen im Blick**  
    Überblick, warum dieser Bereich wichtig ist und wie man ihn versteht.  
 
-10. **Reiter Settings – Einstellungen und Anpassungen**  
+9. **Reiter Settings – Einstellungen und Anpassungen**  
    Überblick über zentrale Konfigurationsmöglichkeiten.  
 
-11. **Ordnung halten in n8n – Ordnerstruktur & Benennung**  
+10. **Ordnung halten in n8n – Ordnerstruktur & Benennung**  
    Empfehlungen, wie man Projekte und Workflows sinnvoll strukturiert.  
    Hintergrund: Begrenzung der Projekte je nach Lizenzmodell, Chaos vermeiden.  
 
