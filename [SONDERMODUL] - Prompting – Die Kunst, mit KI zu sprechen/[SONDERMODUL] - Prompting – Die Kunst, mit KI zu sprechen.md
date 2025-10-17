@@ -35,7 +35,7 @@
    Inhalt: Warum ein einziger, überladener Prompt oft schlechtere Ergebnisse liefert. Wann es sinnvoll ist, Aufgaben in mehreren Schritten oder Nodes aufzuteilen.  
    Ergebnis: Verständnis, wie man Komplexität reduziert und Agentenprozesse stabiler macht.  
 
-7. **Zusatzideen (optional): Prompt-Templates und Wiederverwendung**  
+7. **Prompt-Templates und Wiederverwendung**  
    Inhalt: Vorstellung, wie man wiederkehrende Aufgaben mit Prompt-Bausteinen oder Templates beschleunigen kann.  
    Ergebnis: Aufbau einer eigenen Prompt-Bibliothek.  
 
