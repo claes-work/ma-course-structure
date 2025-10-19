@@ -1,0 +1,48 @@
+In der letzten Lektion haben wir uns angeschaut, wie du mit Markdown Struktur und Übersicht in deine Prompts bringst.
+Jetzt geht es darum, womit du diese Struktur füllst – also um den eigentlichen Inhalt.
+Denn selbst der schönste Aufbau hilft nichts, wenn das, was du schreibst, inhaltlich schwach ist.
+Die Qualität der Antwort hängt direkt von der Qualität deiner Informationen ab.
+Oder anders gesagt: Garbage in, Garbage out.
+Doch was macht den Inhalt eines guten Prompts eigentlich aus?
+Wenn du mit einer KI arbeitest, ist nicht die Länge entscheidend, sondern die **Relevanz**.
+Die KI reagiert auf das, was du ihr gibst – sie kann nicht erraten, was du eigentlich meinst.
+Darum zählt jede Information, die du hineinschreibst.
+Aber nicht jede Information verbessert das Ergebnis.
+Ein häufiger Fehler ist, dass man der KI einfach alles Mögliche gibt – lange Erklärungen, ganze Texte oder irrelevante Zusatzinfos.
+Das führt selten zu besseren Ergebnissen, sondern verwirrt die KI.
+Stattdessen kommt es darauf an, gezielt das zu geben, was den Unterschied macht.
+Ein guter Prompt enthält drei Arten von Informationen:
+Erstens: Zielinformationen.
+Also, was du wirklich erreichen willst.  
+Das ist dein Ankerpunkt.  
+Zum Beispiel: „Ich möchte einen strukturierten Leitfaden erstellen, mit dem neue Mitarbeiter schnell verstehen, wie unser System funktioniert.“  
+So weiß die KI, worauf sie hinarbeiten soll.
+Zweitens: Schlüsselinformationen.
+Das sind die Fakten, die den Kern der Aufgabe ausmachen.  
+Zum Beispiel: Produktname, Zielgruppe, Tonfall, gewünschte Länge oder Stilrichtung.  
+Diese Angaben lenken die KI in die richtige Richtung – wie Wegweiser auf einer Straße.
+Und drittens: Fokusinformationen.
+Das sind die Hinweise, die bestimmen, worauf die KI besonders achten soll.  
+Zum Beispiel: „Achte besonders auf Verständlichkeit.“  
+Oder: „Formuliere aktiv statt passiv.“  
+Damit kannst du gezielt steuern, welche Aspekte für dich am wichtigsten sind.
+Je klarer du diese drei Bereiche trennst, desto besser wird dein Ergebnis.
+Denn die KI kann so erkennen, was Kerninformationen sind und was ergänzend dazugehört.
+Ein Beispiel:
+Schlecht wäre: „Schreib mir bitte einen Text über unser neues Produkt.“
+Gut wäre: „Erstelle eine kurze Produktbeschreibung für unsere neue Edelstahlflasche.  
+Sie soll sich an Wanderer richten, motivierend klingen und maximal 80 Wörter haben.  
+Achte darauf, dass Nachhaltigkeit und Alltagstauglichkeit betont werden.“
+Hier steckt alles drin, was die KI braucht – Ziel, Schlüsselinformationen und Fokus.
+Das Ergebnis ist dadurch nicht nur genauer, sondern auch näher an deiner Vorstellung.
+Du kannst dir das wie einen Filter vorstellen:
+Alles, was direkt hilft, das Ziel zu erreichen, gehört in den Prompt.
+Alles, was davon ablenkt, lässt du weg.
+Und genau darum geht es beim richtigen Inhalt:  
+Nicht viel schreiben, sondern das Richtige schreiben.
+Ein letzter Tipp:  
+Wenn du merkst, dass die KI wiederholt an einem Punkt vorbeiarbeitet, prüfe zuerst deinen Input.  
+Oft fehlt nur ein einziger klarer Hinweis – oder du hast zu viele unnötige Informationen gegeben.  
+Ein präziser Satz kann mehr bewirken als drei Absätze Text.
+In der nächsten Lektion schauen wir uns dann einen spannenden Trick an:  
+Wie du Prompts nicht selbst schreiben musst, sondern die KI sie für dich entwirft – auf Basis genau dieser Prinzipien.
