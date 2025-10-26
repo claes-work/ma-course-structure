@@ -53,10 +53,22 @@
 }
 ```
 
-```json
-$json.name
-$json.email
-$json.adresse.strasse
-$json.anhaenge[0]
-$json.anhaenge[1]
+```js
+{{ $json.name }}
+```
+
+```js
+{{ $json.email }}
+```
+
+```js
+{{ $json.adresse.strasse }}
+```
+
+```js
+{{ $json.anhaenge[0] }}
+```
+
+```js
+{{ $json.anhaenge[1] }}
 ```
